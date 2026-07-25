@@ -207,6 +207,25 @@
     animation: slideIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 60s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-marquee {
+      animation-play-state: paused;
+    }
+  }
+
   /* Inter-based professional typography system */
   h1,
   h2,
