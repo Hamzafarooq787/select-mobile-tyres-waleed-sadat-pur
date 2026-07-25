@@ -95,7 +95,11 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>Mobile service &mdash; serving customers across the United Kingdom</span>
+                <span>
+                  Based in Park Royal, London
+                  <br />
+                  Mobile service across London
+                </span>
               </li>
             </ul>
           </div>

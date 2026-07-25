@@ -99,7 +99,7 @@ export default function ContactPage() {
               <h3 className="mb-4 text-2xl font-semibold text-foreground">Our Location & Service Area</h3>
               <div className="mb-4 text-muted-foreground">
                 <p className="mb-1 font-medium text-foreground">Address:</p>
-                <p className="text-sm">Mobile service &mdash; United Kingdom</p>
+                <p className="text-sm">Park Royal, London</p>
               </div>
               <div className="text-muted-foreground">
                 <p className="mb-2 font-medium text-foreground">Service Area:</p>
