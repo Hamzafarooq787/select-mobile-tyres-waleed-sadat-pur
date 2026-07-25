@@ -275,11 +275,10 @@ const services = [
     image: "/images/services/same-day-tyre-fitting-service.webp",
   },
   {
-    title: "Run Flat Tyre Fitting",
-    description:
-      "Specialist run-flat tyre fitting service for vehicles with TPMS systems. Expert installation guaranteed.",
-    href: "/services/run-flat-tyre-fitting",
-    image: "/images/services/run-flat-tyre-fitting-mercedes.webp",
+    title: "Motorway Tyre Fitting",
+    description: "Specialist tyre fitting for motorway breakdowns. Fast, safe response on the hard shoulder.",
+    href: "/services/motorway-tyre-fitting",
+    image: "/images/services/motorway-tyre-fitting-mercedes.webp",
   },
   {
     title: "Roadside Assistance",

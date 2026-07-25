@@ -9,9 +9,9 @@ import { ScrollAnimation } from "@/components/scroll-animation"
 export const metadata: Metadata = {
   title: "Mobile Tyre Services in London | Professional On-Site Tyre Fitting",
   description:
-    "Complete range of mobile tyre services across London. Emergency fitting, 24/7 assistance, run-flat tyres, and roadside service. Expert technicians at your location.",
+    "Complete range of mobile tyre services across London. Emergency fitting, 24/7 assistance, motorway breakdowns, and roadside service. Expert technicians at your location.",
   keywords:
-    "mobile tyre fitting, mobile tyre fitting near me, tyre fitting near me, mobile tyre repair, mobile tyre replacement, mobile tyre service, mobile tyre repair near me, tyre fitting, emergency tyre repair, emergency tyre replacement, emergency mobile tyre fitting, emergency tyre repair near me, roadside tyre repair, emergency tyre fitting, emergency tyre fitting near me, 24 hour tyre repair, mobile tyre fitting service, 24 hour mobile tyre fitting, 24hr mobile tyre fitting, mobile tyre fitting 24 hours, emergency tyre change, local mobile tyre fitters, mobile fitting tyres near me, 24 hour tyre replacement, best mobile tyre fitting, mobile tyre services London, tyre fitting services, emergency tyre service, 24/7 tyre assistance, run flat tyres London",
+    "mobile tyre fitting, mobile tyre fitting near me, tyre fitting near me, mobile tyre repair, mobile tyre replacement, mobile tyre service, mobile tyre repair near me, tyre fitting, emergency tyre repair, emergency tyre replacement, emergency mobile tyre fitting, emergency tyre repair near me, roadside tyre repair, emergency tyre fitting, emergency tyre fitting near me, 24 hour tyre repair, mobile tyre fitting service, 24 hour mobile tyre fitting, 24hr mobile tyre fitting, mobile tyre fitting 24 hours, emergency tyre change, local mobile tyre fitters, mobile fitting tyres near me, 24 hour tyre replacement, best mobile tyre fitting, mobile tyre services London, tyre fitting services, emergency tyre service, 24/7 tyre assistance, motorway tyre fitting London",
 }
 
 export default function ServicesPage() {
@@ -177,11 +177,11 @@ const services = [
     image: "/images/services/24-7-mobile-tyre-fitting-night.webp",
   },
   {
-    title: "Run Flat Tyre Fitting",
-    description: "Specialist run-flat tyre service for TPMS-equipped vehicles. Expert installation guaranteed.",
-    href: "/services/run-flat-tyre-fitting",
+    title: "Motorway Tyre Fitting",
+    description: "Specialist tyre fitting for motorway breakdowns. Fast, safe response on the hard shoulder.",
+    href: "/services/motorway-tyre-fitting",
     icon: <Shield className="h-7 w-7 text-accent-foreground" />,
-    image: "/images/services/run-flat-tyre-fitting-mercedes.webp",
+    image: "/images/services/motorway-tyre-fitting-mercedes.webp",
   },
   {
     title: "Roadside Tyre Assistance",

@@ -95,8 +95,8 @@ export default function AboutPage() {
             <div className="rounded-lg bg-card p-6">
               <h3 className="mb-3 text-xl font-semibold text-foreground">Specialist Services</h3>
               <p className="leading-relaxed text-muted-foreground">
-                Expert fitting for run-flat tyres, TPMS-equipped vehicles, and high-performance tyres. Our technicians
-                have the knowledge and equipment to handle all tyre types professionally.
+                Expert response for motorway breakdowns, TPMS-equipped vehicles, and high-performance tyres. Our
+                technicians have the knowledge and equipment to handle all tyre types professionally.
               </p>
             </div>
             <div className="rounded-lg bg-card p-6">
