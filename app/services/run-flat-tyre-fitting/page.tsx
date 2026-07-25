@@ -16,7 +16,7 @@ export default function RunFlatTyreFittingPage() {
       serviceType="Run Flat Tyre Fitting"
       description="Specialist mobile service for run-flat tyre fitting. Our technicians have the expertise and equipment to properly fit run-flat tyres and service TPMS systems."
       heroDescription="Expert run-flat tyre fitting. Specialist service for TPMS-equipped vehicles at your location."
-      imageSrc="/images/services/run-flat-tyre-fitting.jpg"
+      imageSrc="/images/services/run-flat-tyre-fitting-mercedes.webp"
       features={[
         "Specialist run-flat tyre expertise",
         "TPMS system service and reset",

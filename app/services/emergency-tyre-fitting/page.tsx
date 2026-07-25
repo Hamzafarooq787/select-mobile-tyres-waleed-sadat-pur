@@ -16,7 +16,7 @@ export default function EmergencyTyreFittingPage() {
       serviceType="Emergency Tyre Fitting"
       description="Rapid emergency tyre fitting service. When you have an urgent tyre issue, we provide fast response and professional on-site assistance to get you moving again."
       heroDescription="24/7 emergency mobile tyre service. Fast response when you need urgent assistance."
-      imageSrc="/images/services/emergency-tyre-fitting.jpg"
+      imageSrc="/images/services/emergency-tyre-fitting-roadside.webp"
       features={[
         "Rapid emergency response",
         "Available for all urgent tyre issues",

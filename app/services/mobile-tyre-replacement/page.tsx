@@ -16,7 +16,7 @@ export default function MobileTyreReplacementPage() {
       serviceType="Mobile Tyre Replacement"
       description="Complete mobile tyre replacement service. We supply and fit quality tyres at your location, whether you need one tyre or a full set."
       heroDescription="Professional tyre replacement delivered to your location. Quality tyres, expert fitting, and comprehensive service."
-      imageSrc="/images/services/mobile-tyre-replacement.jpg"
+      imageSrc="/images/services/mobile-tyre-replacement-new-wheel.webp"
       features={[
         "Wide selection of quality tyre brands",
         "Competitive pricing on all tyres",
