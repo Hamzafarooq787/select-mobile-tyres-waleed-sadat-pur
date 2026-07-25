@@ -6,6 +6,8 @@ export function LocalBusinessSchema() {
       telephone: "+447775017966",
     address: {
       "@type": "PostalAddress",
+      addressLocality: "Park Royal",
+      addressRegion: "London",
       addressCountry: "GB",
     },
     areaServed: {

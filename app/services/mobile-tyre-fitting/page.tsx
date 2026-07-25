@@ -14,8 +14,8 @@ export default function MobileTyreFittingPage() {
     <ServicePageTemplate
       serviceName="Mobile Tyre Fitting"
       serviceType="Mobile Tyre Fitting"
-      description="Professional mobile tyre fitting service delivered to your location anywhere in London. Our expert technicians bring workshop-quality service to your home, workplace, or roadside location."
-      heroDescription="Complete mobile tyre fitting service across London. Professional installation, balancing, and safety checks performed at your chosen location."
+      description="Professional mobile tyre fitting service delivered to your location. Our expert technicians bring workshop-quality service to your home, workplace, or roadside location."
+      heroDescription="Complete mobile tyre fitting service. Professional installation, balancing, and safety checks performed at your chosen location."
       imageSrc="/images/services/mobile-tyre-fitting.jpg"
       features={[
         "Professional tyre fitting at your location",
@@ -23,7 +23,7 @@ export default function MobileTyreFittingPage() {
         "Post-fitting safety inspection",
         "Disposal of old tyres included",
         "Wide range of quality tyres available",
-        "Same-day service available across London",
+        "Same-day service available",
       ]}
       process={[
         {
@@ -32,7 +32,7 @@ export default function MobileTyreFittingPage() {
         },
         {
           title: "We Travel to You",
-          description: "Our mobile technician arrives at your London location with all necessary equipment and tyres.",
+          description: "Our mobile technician arrives at your location with all necessary equipment and tyres.",
         },
         {
           title: "Professional Fitting",
@@ -42,7 +42,7 @@ export default function MobileTyreFittingPage() {
       whyChoose={[
         {
           title: "No Garage Visit Required",
-          description: "Save time and hassle. We come to your home, office, or any location in London.",
+          description: "Save time and hassle. We come to your home, office, or any location.",
         },
         {
           title: "Workshop-Quality Service",
@@ -53,8 +53,8 @@ export default function MobileTyreFittingPage() {
           description: "Average 45-minute arrival time. Service completed while you continue your day.",
         },
         {
-          title: "All London Areas",
-          description: "Complete coverage across all London boroughs with consistent service quality.",
+          title: "Wide Coverage",
+          description: "Consistent service quality wherever you're located.",
         },
       ]}
     />

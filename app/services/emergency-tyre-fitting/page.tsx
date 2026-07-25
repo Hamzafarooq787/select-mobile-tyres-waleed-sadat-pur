@@ -14,11 +14,11 @@ export default function EmergencyTyreFittingPage() {
     <ServicePageTemplate
       serviceName="Emergency Tyre Fitting"
       serviceType="Emergency Tyre Fitting"
-      description="Rapid emergency tyre fitting service across London. When you have an urgent tyre issue, we provide fast response and professional on-site assistance to get you moving again."
-      heroDescription="24/7 emergency mobile tyre service in London. Fast response when you need urgent assistance."
+      description="Rapid emergency tyre fitting service. When you have an urgent tyre issue, we provide fast response and professional on-site assistance to get you moving again."
+      heroDescription="24/7 emergency mobile tyre service. Fast response when you need urgent assistance."
       imageSrc="/images/services/emergency-tyre-fitting.jpg"
       features={[
-        "Rapid emergency response across London",
+        "Rapid emergency response",
         "Available for all urgent tyre issues",
         "Fast arrival times - typically under 60 minutes",
         "Complete mobile fitting service",
@@ -32,7 +32,7 @@ export default function EmergencyTyreFittingPage() {
         },
         {
           title: "Rapid Response",
-          description: "Our nearest mobile technician is dispatched immediately to your London location.",
+          description: "Our nearest mobile technician is dispatched immediately to your location.",
         },
         {
           title: "On-Site Solution",
@@ -42,7 +42,7 @@ export default function EmergencyTyreFittingPage() {
       whyChoose={[
         {
           title: "Genuine 24/7 Service",
-          description: "Real emergency availability day and night, every day of the year across London.",
+          description: "Real emergency availability day and night, every day of the year.",
         },
         {
           title: "Fast Arrival",

@@ -19,11 +19,11 @@ export default function ContactPage() {
         <div className="container mx-auto max-w-7xl px-4">
           <div className="max-w-3xl">
             <h1 className="mb-4 text-4xl font-bold leading-tight text-balance md:text-5xl">
-              Contact Mobile Tyre Service in London
+              Contact Mobile Tyre Service
             </h1>
             <p className="text-lg leading-relaxed text-primary-foreground/90 md:text-xl">
-              Need mobile tyre fitting in London? We're here to help 24/7. Call now for immediate assistance or to book
-              your service.
+              Need mobile tyre fitting? We're here to help 24/7. Call now for immediate assistance or to book your
+              service.
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function ContactPage() {
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl font-bold text-foreground text-balance md:text-4xl">Get In Touch</h2>
             <p className="mx-auto max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              Choose your preferred way to contact us. We're available 24/7 for emergency tyre services across London.
+              Choose your preferred way to contact us. We're available 24/7 for emergency tyre services.
             </p>
           </div>
 
@@ -99,13 +99,11 @@ export default function ContactPage() {
               <h3 className="mb-4 text-2xl font-semibold text-foreground">Our Location & Service Area</h3>
               <div className="mb-4 text-muted-foreground">
                 <p className="mb-1 font-medium text-foreground">Address:</p>
-                <p className="text-sm">Mobile service &mdash; United Kingdom</p>
+                <p className="text-sm">Park Royal</p>
               </div>
               <div className="text-muted-foreground">
                 <p className="mb-2 font-medium text-foreground">Service Area:</p>
-                <p className="text-sm">
-                  We provide mobile tyre fitting services across all London boroughs and surrounding areas.
-                </p>
+                <p className="text-sm">We provide mobile tyre fitting services at your location and surrounding areas.</p>
               </div>
             </Card>
           </div>
@@ -121,12 +119,12 @@ export default function ContactPage() {
             </h2>
             <div className="space-y-4 text-left text-lg leading-relaxed text-muted-foreground">
               <p>
-                When you contact us, our friendly team will ask for your location in London and details about your
-                vehicle and tyre needs. We'll provide an immediate quote and estimated arrival time.
+                When you contact us, our friendly team will ask for your location and details about your vehicle and
+                tyre needs. We'll provide an immediate quote and estimated arrival time.
               </p>
               <p>
-                For emergency services, we prioritize rapid response and aim to reach you within 45 minutes across most
-                London areas. For scheduled appointments, you can choose a time that suits your schedule.
+                For emergency services, we prioritize rapid response and aim to reach you within 45 minutes. For
+                scheduled appointments, you can choose a time that suits your schedule.
               </p>
               <p>
                 Our mobile technicians arrive fully equipped with professional tools and a range of quality tyres. All
@@ -140,9 +138,9 @@ export default function ContactPage() {
       {/* Emergency CTA */}
       <section className="bg-accent py-16 text-accent-foreground">
         <div className="container mx-auto max-w-4xl px-4 text-center">
-          <h2 className="mb-4 text-3xl font-bold text-balance md:text-4xl">Need Emergency Tyre Service in London?</h2>
+          <h2 className="mb-4 text-3xl font-bold text-balance md:text-4xl">Need Emergency Tyre Service?</h2>
           <p className="mb-8 text-lg text-accent-foreground/90">
-            Don't wait – call us now for immediate roadside assistance anywhere in London.
+            Don't wait – call us now for immediate roadside assistance.
           </p>
           <Button asChild size="lg" variant="secondary" className="text-base">
             <a href="tel:+447775017966" className="flex items-center gap-2">

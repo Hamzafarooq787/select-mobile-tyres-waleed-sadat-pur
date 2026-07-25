@@ -14,8 +14,8 @@ export default function MobileTyreReplacementPage() {
     <ServicePageTemplate
       serviceName="Mobile Tyre Replacement"
       serviceType="Mobile Tyre Replacement"
-      description="Complete mobile tyre replacement service across London. We supply and fit quality tyres at your location, whether you need one tyre or a full set."
-      heroDescription="Professional tyre replacement delivered to your location in London. Quality tyres, expert fitting, and comprehensive service."
+      description="Complete mobile tyre replacement service. We supply and fit quality tyres at your location, whether you need one tyre or a full set."
+      heroDescription="Professional tyre replacement delivered to your location. Quality tyres, expert fitting, and comprehensive service."
       imageSrc="/images/services/mobile-tyre-replacement.jpg"
       features={[
         "Wide selection of quality tyre brands",
@@ -32,7 +32,7 @@ export default function MobileTyreReplacementPage() {
         },
         {
           title: "Mobile Service",
-          description: "Our technician brings your new tyres to your London location with all fitting equipment.",
+          description: "Our technician brings your new tyres to your location with all fitting equipment.",
         },
         {
           title: "Expert Installation",
@@ -49,8 +49,8 @@ export default function MobileTyreReplacementPage() {
           description: "Clear quotes with no hidden fees. Supply and fitting included in one price.",
         },
         {
-          title: "London-Wide Service",
-          description: "Available across all London boroughs with fast response times.",
+          title: "Wide Coverage",
+          description: "Available across a wide area with fast response times.",
         },
         {
           title: "Professional Standards",

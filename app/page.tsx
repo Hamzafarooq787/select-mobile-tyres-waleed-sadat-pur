@@ -33,7 +33,7 @@ export default function HomePage() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(220,38,38,0.15),transparent_60%)] md:bg-[radial-gradient(circle_at_50%_120%,rgba(220,38,38,0.1),transparent_50%)]" />
             <Image
               src="/mobile-tyre-fitting-service-technician-working-on-.jpg"
-              alt="Professional mobile tyre fitting service in London"
+              alt="Professional mobile tyre fitting service"
               fill
               className="object-cover opacity-15 mix-blend-overlay md:opacity-20"
               priority
@@ -44,14 +44,14 @@ export default function HomePage() {
           <div className="container relative z-10 mx-auto max-w-7xl px-6 py-16 md:px-12 md:py-32 lg:px-16 lg:py-40">
             <div className="max-w-4xl">
               <h1 className="mb-5 text-3xl font-extrabold leading-snug text-balance text-primary-foreground md:mb-6 md:text-6xl md:leading-tight lg:text-7xl animate-fade-in-up">
-                Mobile Tyre Fitting in London – Fast, Reliable, On-Site
+                Mobile Tyre Fitting – Fast, Reliable, On-Site
               </h1>
               <p
                 className="mb-8 text-base leading-relaxed text-primary-foreground/95 md:mb-10 md:text-2xl font-normal animate-fade-in-up"
                 style={{ animationDelay: "0.2s" }}
               >
                 Professional mobile tyre service at your location. Emergency assistance, same-day fitting, and 24/7
-                availability across all London boroughs.
+                availability.
               </p>
               <div className="animate-fade-in-up pb-4 md:pb-0" style={{ animationDelay: "0.4s" }}>
                 <Button
@@ -89,8 +89,8 @@ export default function HomePage() {
                     <MapPin className="h-8 w-8 text-accent" />
                   </div>
                   <div>
-                    <p className="text-lg font-bold text-foreground">London-Wide Coverage</p>
-                    <p className="text-base text-muted-foreground">All boroughs served</p>
+                    <p className="text-lg font-bold text-foreground">Wide Coverage</p>
+                    <p className="text-base text-muted-foreground">We come to you</p>
                   </div>
                 </div>
               </ScrollAnimation>
@@ -114,11 +114,11 @@ export default function HomePage() {
             <ScrollAnimation>
               <div className="mb-20 text-center">
                 <h2 className="mb-6 text-4xl font-extrabold text-foreground text-balance md:text-5xl lg:text-6xl">
-                  Our Mobile Tyre Services in London
+                  Our Mobile Tyre Services
                 </h2>
                 <p className="mx-auto max-w-3xl text-xl leading-relaxed text-muted-foreground">
-                  Professional on-site tyre fitting services across London. We come to you, whether you're at home,
-                  work, or stranded on the roadside.
+                  Professional on-site tyre fitting services. We come to you, whether you're at home, work, or
+                  stranded on the roadside.
                 </p>
               </div>
             </ScrollAnimation>
@@ -191,7 +191,7 @@ export default function HomePage() {
                     Why Choose Select Mobile Tyres?
                   </h2>
                   <p className="mb-10 text-xl leading-relaxed text-muted-foreground">
-                    We're London's trusted mobile tyre fitting service, combining professional expertise with unmatched
+                    We're a trusted mobile tyre fitting service, combining professional expertise with unmatched
                     convenience. Our technicians come to you, fully equipped to handle any tyre emergency.
                   </p>
                   <ul className="space-y-8">
@@ -240,7 +240,7 @@ export default function HomePage() {
 
         {/* Final CTA */}
         <CTASection
-          title="Need a Mobile Tyre Fitting Service in London?"
+          title="Need a Mobile Tyre Fitting Service?"
           description="Call us now for fast, professional service at your location. Available 24/7 for emergencies."
         />
       </main>
@@ -252,41 +252,38 @@ const services = [
   {
     title: "Mobile Tyre Fitting",
     description:
-      "Complete tyre fitting service at your location across London. Professional installation with proper balancing and alignment checks.",
+      "Complete tyre fitting service at your location. Professional installation with proper balancing and alignment checks.",
     href: "/services/mobile-tyre-fitting",
     image: "/mobile-tyre-fitting-service-van-with-technician-an.jpg",
   },
   {
     title: "Emergency Tyre Fitting",
-    description:
-      "Rapid response for tyre emergencies. Available across London when you need urgent assistance on the road.",
+    description: "Rapid response for tyre emergencies. Available when you need urgent assistance on the road.",
     href: "/services/emergency-tyre-fitting",
     image: "/emergency-roadside-tyre-service-at-night-urgent-as.jpg",
   },
   {
     title: "24/7 Mobile Service",
-    description:
-      "Round-the-clock availability for tyre emergencies. Day or night, we're here to help anywhere in London.",
+    description: "Round-the-clock availability for tyre emergencies. Day or night, we're here to help.",
     href: "/services/24-7-mobile-tyre-fitting",
     image: "/24-hour-tyre-service-at-night-with-lights.jpg",
   },
   {
     title: "Same Day Fitting",
-    description: "Fast same-day tyre replacement service across London. Book in the morning, fitted by afternoon.",
+    description: "Fast same-day tyre replacement service. Book in the morning, fitted by afternoon.",
     href: "/services/same-day-tyre-fitting",
     image: "/professional-tyre-fitting-service-fast-efficient.jpg",
   },
   {
     title: "Run Flat Tyre Fitting",
     description:
-      "Specialist run-flat tyre fitting service for vehicles with TPMS systems. Expert installation across London.",
+      "Specialist run-flat tyre fitting service for vehicles with TPMS systems. Expert installation guaranteed.",
     href: "/services/run-flat-tyre-fitting",
     image: "/run-flat-tyre-installation-specialist-service.jpg",
   },
   {
     title: "Roadside Assistance",
-    description:
-      "Complete roadside tyre assistance throughout London. From puncture repairs to full tyre replacement on-site.",
+    description: "Complete roadside tyre assistance. From puncture repairs to full tyre replacement on-site.",
     href: "/services/roadside-tyre-assistance",
     image: "/roadside-assistance-tyre-repair-on-highway.jpg",
   },
@@ -295,7 +292,7 @@ const services = [
 const steps = [
   {
     title: "Call or Book Online",
-    description: "Contact us by phone or WhatsApp. Tell us your location in London and what you need.",
+    description: "Contact us by phone or WhatsApp. Tell us your location and what you need.",
   },
   {
     title: "We Come to You",
@@ -310,7 +307,7 @@ const steps = [
 const benefits = [
   {
     title: "Fully Mobile Service",
-    description: "No need to visit a garage. We come to your home, workplace, or roadside location in London.",
+    description: "No need to visit a garage. We come to your home, workplace, or roadside location.",
   },
   {
     title: "Expert Technicians",
@@ -322,6 +319,6 @@ const benefits = [
   },
   {
     title: "24/7 Emergency Service",
-    description: "Available around the clock for urgent tyre issues. Fast response times across all London areas.",
+    description: "Available around the clock for urgent tyre issues. Fast response times, wherever you are.",
   },
 ]
