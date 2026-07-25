@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Replacement London | On-Site Tyre Change Service",
   description:
     "Fast mobile tyre replacement across London. Quality tyres fitted at your location. Professional service with same-day availability. Call for immediate assistance!",
-  keywords: "mobile tyre replacement London, tyre change service, on-site tyre replacement, mobile tyre change",
+  keywords:
+    "mobile tyre replacement, mobile tyre repair, mobile tyre repair near me, 24 hour tyre replacement, emergency tyre replacement, mobile tyre service, mobile tyre fitting near me, mobile tyre replacement London, tyre change service, on-site tyre replacement, mobile tyre change",
 }
 
 export default function MobileTyreReplacementPage() {

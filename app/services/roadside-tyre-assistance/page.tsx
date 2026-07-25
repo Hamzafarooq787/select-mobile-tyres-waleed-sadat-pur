@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   title: "Roadside Tyre Assistance London | Mobile Emergency Tyre Help",
   description:
     "Complete roadside tyre assistance across London. Puncture repairs, emergency fitting, and full replacement on-site. Fast response 24/7. Call now for help!",
-  keywords: "roadside tyre assistance London, roadside tyre help, mobile puncture repair, roadside tyre replacement",
+  keywords:
+    "roadside tyre repair, emergency tyre repair, emergency tyre repair near me, emergency mobile tyre, mobile tyre repair near me, emergency tyre change, roadside tyre assistance London, roadside tyre help, mobile puncture repair, roadside tyre replacement",
 }
 
 export default function RoadsideTyreAssistancePage() {

@@ -101,7 +101,17 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-border pt-8 text-sm text-muted-foreground">
+        <div className="mt-8 border-t border-border pt-8 text-xs leading-relaxed text-muted-foreground/80">
+          <p>
+            <span className="font-medium text-muted-foreground">Popular searches:</span> mobile tyre fitting near me,
+            tyre fitting near me, mobile tyre repair near me, emergency tyre repair near me, emergency tyre fitting
+            near me, local mobile tyre fitters, mobile fitting tyres near me, 24 hour mobile tyre fitting, 24hr
+            mobile tyre fitting, mobile tyre fitting 24 hours, emergency mobile tyre fitting, roadside tyre repair,
+            emergency tyre change, mobile tyre van, best mobile tyre fitting.
+          </p>
+        </div>
+
+        <div className="mt-4 border-t border-border pt-4 text-sm text-muted-foreground">
           <div className="flex flex-col sm:flex-row sm:justify-between gap-2">
             <p>
               Design & Develop By{" "}

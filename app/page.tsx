@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card"
 import { Clock, MapPin, Shield, Wrench, CheckCircle2 } from "lucide-react"
 import { CTASection } from "@/components/cta-section"
 import { GoogleReviewsCustom } from "@/components/google-reviews-custom"
+import { MapEmbed } from "@/components/map-embed"
 import { LocalBusinessSchema } from "@/components/json-ld"
 import { ScrollAnimation } from "@/components/scroll-animation"
 
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Expert mobile tyre fitting service across London. Fast response, on-site service, 24/7 emergency assistance. Professional tyre replacement at your location. Call now!",
   keywords:
-    "mobile tyre fitting London, emergency tyre service London, roadside tyre assistance, mobile tyre replacement, 24/7 tyre service",
+    "mobile tyre fitting, mobile tyre fitting near me, tyre fitting near me, mobile tyre repair, mobile tyre repair near me, mobile tyre replacement, mobile tyre service, tyre fitting, emergency tyre repair, emergency tyre repair near me, emergency tyre replacement, emergency mobile tyre fitting, roadside tyre repair, emergency tyre fitting, emergency tyre fitting near me, 24 hour tyre repair, mobile tyre fitting service, 24 hour mobile tyre fitting, 24hr mobile tyre fitting, mobile tyre fitting 24 hours, emergency tyre change, local mobile tyre fitters, mobile fitting tyres near me, mobile tyre van, emergency mobile tyre, 24 hour tyre replacement, best mobile tyre fitting, mobile tyre fitting London, emergency tyre service London, roadside tyre assistance, 24/7 tyre service",
   openGraph: {
     title: "Mobile Tyre Fitting London | 24/7 Emergency Service",
     description:
@@ -223,6 +224,19 @@ export default function HomePage() {
 
         {/* Google Reviews */}
         <GoogleReviewsCustom />
+
+        {/* Location Map */}
+        <section className="py-24 md:py-32">
+          <div className="container mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
+            <div className="mb-12 text-center">
+              <h2 className="mb-6 text-4xl font-extrabold text-foreground text-balance md:text-5xl">Find Us</h2>
+              <p className="mx-auto max-w-3xl text-xl leading-relaxed text-muted-foreground">
+                We come to you, wherever you are in the coverage area.
+              </p>
+            </div>
+            <MapEmbed />
+          </div>
+        </section>
 
         {/* Final CTA */}
         <CTASection

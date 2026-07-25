@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   title: "Mobile Tyre Fitting London | Professional On-Site Tyre Installation",
   description:
     "Expert mobile tyre fitting service across London. Professional installation at your location with balancing and safety checks. Fast service, quality tyres. Call now!",
-  keywords: "mobile tyre fitting London, on-site tyre installation, mobile tyre service, tyre fitting at home",
+  keywords:
+    "mobile tyre fitting, mobile tyre fitting near me, tyre fitting near me, mobile tyre fitting service, tyre fitting, local mobile tyre fitters, mobile fitting tyres near me, best mobile tyre fitting, mobile tyre van, mobile tyre fitting London, on-site tyre installation, mobile tyre service, tyre fitting at home",
 }
 
 export default function MobileTyreFittingPage() {

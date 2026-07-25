@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   title: "Same Day Tyre Fitting London | Fast Mobile Tyre Service Today",
   description:
     "Same-day mobile tyre fitting across London. Book in the morning, fitted by afternoon. Fast service at your location. No garage appointment needed. Call now!",
-  keywords: "same day tyre fitting London, fast tyre service, urgent tyre fitting, quick tyre replacement London",
+  keywords:
+    "mobile tyre fitting near me, tyre fitting near me, mobile tyre fitting service, best mobile tyre fitting, mobile fitting tyres near me, same day tyre fitting London, fast tyre service, urgent tyre fitting, quick tyre replacement London",
 }
 
 export default function SameDayTyreFittingPage() {

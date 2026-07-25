@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   title: "About Us | Professional Mobile Tyre Service in London",
   description:
     "Learn about Select Mobile Tyres - London's trusted mobile tyre fitting service. Professional technicians, fast response, and reliable on-site service across all boroughs.",
-  keywords: "about mobile tyre service, London tyre fitting company, professional mobile technicians",
+  keywords:
+    "mobile tyre fitting, mobile tyre fitting near me, mobile tyre service, mobile tyre repair, local mobile tyre fitters, best mobile tyre fitting, tyre fitting near me, about mobile tyre service, London tyre fitting company, professional mobile technicians",
 }
 
 export default function AboutPage() {

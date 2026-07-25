@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   title: "Run Flat Tyre Fitting London | TPMS Mobile Tyre Service",
   description:
     "Specialist run-flat tyre fitting service in London. Expert installation for TPMS-equipped vehicles. Mobile service at your location. Professional standards guaranteed!",
-  keywords: "run flat tyre fitting London, TPMS tyre service, run flat tyre replacement, mobile run flat fitting",
+  keywords:
+    "mobile tyre fitting, mobile tyre fitting near me, mobile tyre fitting service, best mobile tyre fitting, tyre fitting near me, run flat tyre fitting London, TPMS tyre service, run flat tyre replacement, mobile run flat fitting",
 }
 
 export default function RunFlatTyreFittingPage() {
