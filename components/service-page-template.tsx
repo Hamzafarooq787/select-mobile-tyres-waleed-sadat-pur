@@ -39,7 +39,7 @@ export function ServicePageTemplate({
         <section className="relative bg-primary text-primary-foreground">
           <div className="absolute inset-0 z-0">
             <Image
-              src={`/.jpg?key=atxiu&height=500&width=1200&query=${serviceName.toLowerCase()} technician working in London`}
+              src={imageSrc || "/placeholder.svg"}
               alt={`${serviceName} service in London`}
               fill
               className="object-cover opacity-10"

@@ -25,7 +25,7 @@ export function CTASection({ title, description }: CTASectionProps) {
             variant="outline"
             className="w-full border-primary-foreground/20 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 sm:w-auto"
           >
-            <a href="https://wa.me/+447775017966" className="flex items-center gap-2">
+            <a href="https://wa.me/447775017966" className="flex items-center gap-2">
               <MessageCircle className="h-5 w-5" />
               WhatsApp Us
             </a>
