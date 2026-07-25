@@ -1,0 +1,16 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tyre Icon - Clean circular design with center hub -->
+  <circle cx="30" cy="30" r="20" stroke="#0A0A0A" stroke-width="3" fill="none"/>
+  <circle cx="30" cy="30" r="12" stroke="#0A0A0A" stroke-width="2.5" fill="none"/>
+  <circle cx="30" cy="30" r="4" fill="#DC2626"/>
+  
+  <!-- Subtle tire treads - 4 simple lines -->
+  <line x1="30" y1="8" x2="30" y2="13" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="52" y1="30" x2="47" y2="30" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="52" x2="30" y2="47" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="8" y1="30" x2="13" y2="30" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Brand Text -->
+  <text x="65" y="22" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#0A0A0A" letter-spacing="-0.02em">MOBILE TYRE</text>
+  <text x="65" y="40" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#525252" letter-spacing="0.05em">NEAR ME</text>
+</svg>
