@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   title: "Emergency Tyre Fitting London | 24/7 Urgent Tyre Service",
   description:
     "Emergency mobile tyre fitting across London. Fast response for urgent tyre issues. Available 24/7 for roadside emergencies. Call now for immediate assistance!",
-  keywords: "emergency tyre fitting London, urgent tyre service, 24/7 tyre fitting, emergency roadside tyres",
+  keywords:
+    "emergency tyre repair, emergency tyre replacement, emergency mobile tyre fitting, emergency tyre repair near me, emergency tyre fitting near me, emergency tyre change, emergency mobile tyre, roadside tyre repair, 24 hour tyre repair, mobile tyre fitting near me, emergency tyre fitting London, urgent tyre service, 24/7 tyre fitting, emergency roadside tyres",
 }
 
 export default function EmergencyTyreFittingPage() {

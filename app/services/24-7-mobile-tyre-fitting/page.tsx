@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   title: "24/7 Mobile Tyre Fitting London | Round-the-Clock Tyre Service",
   description:
     "24-hour mobile tyre fitting service in London. Available day and night for emergency and scheduled appointments. Call anytime for professional on-site service!",
-  keywords: "24/7 tyre fitting London, 24 hour tyre service, night tyre fitting, round the clock tyre service",
+  keywords:
+    "24 hour mobile tyre fitting, 24hr mobile tyre fitting, mobile tyre fitting 24 hours, 24 hour tyre repair, 24 hour tyre replacement, mobile tyre fitting near me, tyre fitting near me, mobile tyre fitting service, emergency mobile tyre, best mobile tyre fitting, 24/7 tyre fitting London, 24 hour tyre service, night tyre fitting, round the clock tyre service",
 }
 
 export default function TwentyFourSevenPage() {

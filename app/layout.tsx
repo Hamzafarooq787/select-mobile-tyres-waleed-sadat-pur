@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description:
     "Professional mobile tyre fitting service in London. 24/7 emergency roadside assistance, same-day service, and expert tyre replacement at your location.",
   keywords:
-    "mobile tyre fitting London, emergency tyre service, roadside tyre assistance, same day tyre fitting, 24/7 tyre service",
+    "mobile tyre fitting, mobile tyre fitting near me, tyre fitting near me, mobile tyre repair, mobile tyre replacement, mobile tyre service, mobile tyre repair near me, tyre fitting, emergency tyre repair, emergency tyre replacement, emergency mobile tyre fitting, emergency tyre repair near me, roadside tyre repair, emergency tyre fitting, 24 hour tyre repair, mobile tyre fitting service, 24 hour mobile tyre fitting, emergency tyre change, emergency tyre fitting near me, local mobile tyre fitters, mobile fitting tyres near me, 24hr mobile tyre fitting, mobile tyre van, emergency mobile tyre, mobile tyre fitting 24 hours, 24 hour tyre replacement, best mobile tyre fitting, mobile tyre fitting London, emergency tyre service, roadside tyre assistance, same day tyre fitting, 24/7 tyre service",
   generator: "v0.app",
   icons: {
     icon: [

@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   title: "Contact Us | Mobile Tyre Fitting London - 24/7 Service",
   description:
     "Contact Select Mobile Tyres for fast tyre fitting service in London. Call +44 7775 017966 or WhatsApp for immediate assistance. Available 24/7 across all London boroughs.",
-  keywords: "contact mobile tyre London, emergency tyre service contact, mobile tyre phone number London",
+  keywords:
+    "mobile tyre fitting near me, tyre fitting near me, emergency tyre repair near me, emergency tyre fitting near me, mobile tyre repair near me, local mobile tyre fitters, mobile fitting tyres near me, contact mobile tyre London, emergency tyre service contact, mobile tyre phone number London",
 }
 
 export default function ContactPage() {
