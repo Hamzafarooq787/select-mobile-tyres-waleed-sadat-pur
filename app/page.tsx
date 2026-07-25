@@ -32,7 +32,7 @@ export default function HomePage() {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(220,38,38,0.15),transparent_60%)] md:bg-[radial-gradient(circle_at_50%_120%,rgba(220,38,38,0.1),transparent_50%)]" />
             <Image
-              src="/mobile-tyre-fitting-service-technician-working-on-.jpg"
+              src="/images/services/select-mobile-tyres-branded-van.webp"
               alt="Professional mobile tyre fitting service"
               fill
               className="object-cover opacity-15 mix-blend-overlay md:opacity-20"
@@ -210,7 +210,7 @@ export default function HomePage() {
               <ScrollAnimation delay={200}>
                 <div className="relative aspect-[4/3] lg:aspect-auto lg:h-full lg:min-h-[600px] image-zoom rounded-3xl overflow-hidden depth-card">
                   <Image
-                    src="/professional-technician-fitting-tyre-on-vehicle-ro.jpg"
+                    src="/images/services/professional-tyre-fitting-equipment.webp"
                     alt="Professional mobile tyre fitting service"
                     fill
                     className="object-cover"
@@ -254,38 +254,38 @@ const services = [
     description:
       "Complete tyre fitting service at your location. Professional installation with proper balancing and alignment checks.",
     href: "/services/mobile-tyre-fitting",
-    image: "/mobile-tyre-fitting-service-van-with-technician-an.jpg",
+    image: "/images/services/mobile-tyre-fitting-service.webp",
   },
   {
     title: "Emergency Tyre Fitting",
     description: "Rapid response for tyre emergencies. Available when you need urgent assistance on the road.",
     href: "/services/emergency-tyre-fitting",
-    image: "/emergency-roadside-tyre-service-at-night-urgent-as.jpg",
+    image: "/images/services/emergency-tyre-fitting-roadside.webp",
   },
   {
     title: "24/7 Mobile Service",
     description: "Round-the-clock availability for tyre emergencies. Day or night, we're here to help.",
     href: "/services/24-7-mobile-tyre-fitting",
-    image: "/24-hour-tyre-service-at-night-with-lights.jpg",
+    image: "/images/services/24-7-mobile-tyre-fitting-night.webp",
   },
   {
     title: "Same Day Fitting",
     description: "Fast same-day tyre replacement service. Book in the morning, fitted by afternoon.",
     href: "/services/same-day-tyre-fitting",
-    image: "/professional-tyre-fitting-service-fast-efficient.jpg",
+    image: "/images/services/same-day-tyre-fitting-service.webp",
   },
   {
     title: "Run Flat Tyre Fitting",
     description:
       "Specialist run-flat tyre fitting service for vehicles with TPMS systems. Expert installation guaranteed.",
     href: "/services/run-flat-tyre-fitting",
-    image: "/run-flat-tyre-installation-specialist-service.jpg",
+    image: "/images/services/run-flat-tyre-fitting-mercedes.webp",
   },
   {
     title: "Roadside Assistance",
     description: "Complete roadside tyre assistance. From puncture repairs to full tyre replacement on-site.",
     href: "/services/roadside-tyre-assistance",
-    image: "/roadside-assistance-tyre-repair-on-highway.jpg",
+    image: "/images/services/roadside-tyre-assistance-service.webp",
   },
 ]
 

@@ -56,7 +56,7 @@ export default function AboutPage() {
             </div>
             <div className="relative aspect-square lg:aspect-auto lg:h-full lg:min-h-[400px]">
               <Image
-                src="/mobile-tyre-service-van-and-professional-technicia.jpg"
+                src="/images/services/select-mobile-tyres-van-fleet.webp"
                 alt="Select Mobile Tyres service"
                 fill
                 className="rounded-lg object-cover"

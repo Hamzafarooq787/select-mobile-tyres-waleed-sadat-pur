@@ -16,7 +16,7 @@ export default function TwentyFourSevenPage() {
       serviceType="24/7 Mobile Tyre Fitting"
       description="Round-the-clock mobile tyre fitting service. Day or night, weekday or weekend, we're available to provide professional tyre service at your location."
       heroDescription="24-hour mobile tyre service. Available anytime, day or night, for your convenience."
-      imageSrc="/images/services/24-7-mobile-tyre-fitting.jpg"
+      imageSrc="/images/services/24-7-mobile-tyre-fitting-night.webp"
       features={[
         "True 24/7 availability every day",
         "Night and weekend service",

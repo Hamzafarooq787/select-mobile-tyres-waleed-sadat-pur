@@ -16,7 +16,7 @@ export default function RoadsideTyreAssistancePage() {
       serviceType="Roadside Tyre Assistance"
       description="Comprehensive roadside tyre assistance. Whether you have a puncture, blowout, or tyre damage, we provide complete on-site support to get you safely moving again."
       heroDescription="Complete roadside tyre assistance. Fast response for punctures, damage, and emergencies."
-      imageSrc="/images/services/roadside-tyre-assistance.jpg"
+      imageSrc="/images/services/roadside-tyre-assistance-service.webp"
       features={[
         "Fast roadside response",
         "Puncture assessment and repair",

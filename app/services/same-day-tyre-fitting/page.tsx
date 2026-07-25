@@ -16,7 +16,7 @@ export default function SameDayTyreFittingPage() {
       serviceType="Same Day Tyre Fitting"
       description="Fast same-day mobile tyre fitting service. Need tyres fitted today? We provide rapid service at your location without the wait of traditional garages."
       heroDescription="Same-day mobile tyre service. Book now and get your tyres fitted at your location today."
-      imageSrc="/images/services/same-day-tyre-fitting.jpg"
+      imageSrc="/images/services/same-day-tyre-fitting-service.webp"
       features={[
         "Same-day service available",
         "No garage appointment necessary",

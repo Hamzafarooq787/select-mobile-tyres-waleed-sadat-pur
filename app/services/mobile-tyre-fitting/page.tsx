@@ -16,7 +16,7 @@ export default function MobileTyreFittingPage() {
       serviceType="Mobile Tyre Fitting"
       description="Professional mobile tyre fitting service delivered to your location. Our expert technicians bring workshop-quality service to your home, workplace, or roadside location."
       heroDescription="Complete mobile tyre fitting service. Professional installation, balancing, and safety checks performed at your chosen location."
-      imageSrc="/images/services/mobile-tyre-fitting.jpg"
+      imageSrc="/images/services/mobile-tyre-fitting-service.webp"
       features={[
         "Professional tyre fitting at your location",
         "Complete wheel balancing included",
