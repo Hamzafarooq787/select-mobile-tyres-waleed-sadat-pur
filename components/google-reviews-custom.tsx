@@ -97,12 +97,14 @@ const reviews = [
 
 const GOOGLE_BUSINESS_URL = "https://www.google.com/search?q=Select+Mobile+Tyres+reviews"
 
-function ReviewCard({ review }: { review: (typeof reviews)[number] }) {
+function ReviewCard({ review, hidden = false }: { review: (typeof reviews)[number]; hidden?: boolean }) {
   return (
     <a
       href={GOOGLE_BUSINESS_URL}
       target="_blank"
       rel="noopener noreferrer"
+      aria-hidden={hidden}
+      tabIndex={hidden ? -1 : undefined}
       className="group block w-80 flex-shrink-0 sm:w-96"
     >
       <div className="h-full rounded-2xl bg-card border border-border/50 p-6 shadow-lg transition-all duration-300 hover:shadow-2xl hover:border-accent/50">
@@ -173,7 +175,7 @@ export function GoogleReviewsCustom() {
         <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-l from-background to-transparent sm:w-32" />
         <div className="flex w-max animate-marquee gap-6 group-hover/marquee:[animation-play-state:paused] px-6">
           {marqueeReviews.map((review, index) => (
-            <ReviewCard key={index} review={review} />
+            <ReviewCard key={index} review={review} hidden={index >= reviews.length} />
           ))}
         </div>
       </div>
