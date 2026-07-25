@@ -17,8 +17,7 @@ export function Footer() {
               sizes="80px"
             />
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Professional mobile tyre fitting service across London. Fast, reliable, and on-site assistance when you
-              need it most.
+              Professional mobile tyre fitting service. Fast, reliable, and on-site assistance when you need it most.
             </p>
           </div>
 
@@ -95,11 +94,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>
-                  Based in Park Royal, London
-                  <br />
-                  Mobile service across London
-                </span>
+                <span>Based in Park Royal</span>
               </li>
             </ul>
           </div>

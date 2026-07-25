@@ -23,11 +23,11 @@ export default function ServicesPage() {
           <ScrollAnimation>
             <div className="max-w-4xl">
               <h1 className="mb-6 text-5xl font-extrabold leading-tight text-balance text-primary-foreground md:text-6xl">
-                Mobile Tyre Services in London
+                Mobile Tyre Services
               </h1>
               <p className="text-xl leading-relaxed text-primary-foreground/95 md:text-2xl font-normal">
-                Comprehensive mobile tyre services delivered to your location across London. Professional fitting,
-                emergency assistance, and specialist services available 24/7.
+                Comprehensive mobile tyre services delivered to your location. Professional fitting, emergency
+                assistance, and specialist services available 24/7.
               </p>
             </div>
           </ScrollAnimation>
@@ -42,8 +42,8 @@ export default function ServicesPage() {
                 Our Complete Service Range
               </h2>
               <p className="mx-auto max-w-3xl text-xl leading-relaxed text-muted-foreground">
-                Professional mobile tyre services for all vehicle types across London. Whatever your tyre needs, we
-                bring the solution to you.
+                Professional mobile tyre services for all vehicle types. Whatever your tyre needs, we bring the
+                solution to you.
               </p>
             </div>
           </ScrollAnimation>
@@ -133,7 +133,7 @@ export default function ServicesPage() {
       {/* CTA */}
       <CTASection
         title="Ready to Book Your Mobile Tyre Service?"
-        description="Professional service across London. Call now for immediate assistance or to schedule your appointment."
+        description="Professional service at your location. Call now for immediate assistance or to schedule your appointment."
       />
     </main>
   )
@@ -143,28 +143,28 @@ const services = [
   {
     title: "Mobile Tyre Fitting",
     description:
-      "Professional tyre fitting at your location in London. Full installation service with balancing and alignment checks.",
+      "Professional tyre fitting at your location. Full installation service with balancing and alignment checks.",
     href: "/services/mobile-tyre-fitting",
     icon: <Wrench className="h-7 w-7 text-accent-foreground" />,
     image: "/mobile-tyre-fitting-professional-service-van-equip.jpg",
   },
   {
     title: "Mobile Tyre Replacement",
-    description: "Complete tyre replacement service delivered to you. Quality tyres fitted on-site across London.",
+    description: "Complete tyre replacement service delivered to you. Quality tyres fitted on-site.",
     href: "/services/mobile-tyre-replacement",
     icon: <Wrench className="h-7 w-7 text-accent-foreground" />,
     image: "/tyre-replacement-service-professional-installation.jpg",
   },
   {
     title: "Emergency Tyre Fitting",
-    description: "Rapid emergency response for urgent tyre issues. Fast arrival times anywhere in London.",
+    description: "Rapid emergency response for urgent tyre issues. Fast arrival times, wherever you are.",
     href: "/services/emergency-tyre-fitting",
     icon: <Zap className="h-7 w-7 text-accent-foreground" />,
     image: "/emergency-tyre-service-night-urgent-roadside.jpg",
   },
   {
     title: "Same Day Tyre Fitting",
-    description: "Fast same-day service across London. Book today, fitted today at your chosen location.",
+    description: "Fast same-day service. Book today, fitted today at your chosen location.",
     href: "/services/same-day-tyre-fitting",
     icon: <Clock className="h-7 w-7 text-accent-foreground" />,
     image: "/same-day-tyre-fitting-fast-efficient-service.jpg",
@@ -185,7 +185,7 @@ const services = [
   },
   {
     title: "Roadside Tyre Assistance",
-    description: "Complete roadside support throughout London. From punctures to full replacements.",
+    description: "Complete roadside support. From punctures to full replacements.",
     href: "/services/roadside-tyre-assistance",
     icon: <Phone className="h-7 w-7 text-accent-foreground" />,
     image: "/roadside-assistance-emergency-tyre-repair.jpg",

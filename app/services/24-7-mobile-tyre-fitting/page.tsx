@@ -14,21 +14,21 @@ export default function TwentyFourSevenPage() {
     <ServicePageTemplate
       serviceName="24/7 Mobile Tyre Fitting"
       serviceType="24/7 Mobile Tyre Fitting"
-      description="Round-the-clock mobile tyre fitting service across London. Day or night, weekday or weekend, we're available to provide professional tyre service at your location."
-      heroDescription="24-hour mobile tyre service in London. Available anytime, day or night, for your convenience."
+      description="Round-the-clock mobile tyre fitting service. Day or night, weekday or weekend, we're available to provide professional tyre service at your location."
+      heroDescription="24-hour mobile tyre service. Available anytime, day or night, for your convenience."
       imageSrc="/images/services/24-7-mobile-tyre-fitting.jpg"
       features={[
         "True 24/7 availability every day",
         "Night and weekend service",
         "Emergency and scheduled appointments",
-        "All London areas covered",
+        "Wide area covered",
         "Professional service at any hour",
         "No additional night charges for emergencies",
       ]}
       process={[
         {
           title: "Call Anytime",
-          description: "Our phone lines are staffed 24/7. Call whenever you need tyre service in London.",
+          description: "Our phone lines are staffed 24/7. Call whenever you need tyre service.",
         },
         {
           title: "Immediate Dispatch",
@@ -50,7 +50,7 @@ export default function TwentyFourSevenPage() {
         },
         {
           title: "Emergency Ready",
-          description: "Immediate response for tyre emergencies at any hour across London.",
+          description: "Immediate response for tyre emergencies at any hour.",
         },
         {
           title: "Consistent Quality",

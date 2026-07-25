@@ -14,11 +14,11 @@ export default function SameDayTyreFittingPage() {
     <ServicePageTemplate
       serviceName="Same Day Tyre Fitting"
       serviceType="Same Day Tyre Fitting"
-      description="Fast same-day mobile tyre fitting service across London. Need tyres fitted today? We provide rapid service at your location without the wait of traditional garages."
-      heroDescription="Same-day mobile tyre service in London. Book now and get your tyres fitted at your location today."
+      description="Fast same-day mobile tyre fitting service. Need tyres fitted today? We provide rapid service at your location without the wait of traditional garages."
+      heroDescription="Same-day mobile tyre service. Book now and get your tyres fitted at your location today."
       imageSrc="/images/services/same-day-tyre-fitting.jpg"
       features={[
-        "Same-day service across London",
+        "Same-day service available",
         "No garage appointment necessary",
         "Service at your chosen location",
         "Wide tyre selection available",
@@ -32,7 +32,7 @@ export default function SameDayTyreFittingPage() {
         },
         {
           title: "Choose Your Time",
-          description: "Select a convenient time slot. We work around your schedule across London.",
+          description: "Select a convenient time slot. We work around your schedule.",
         },
         {
           title: "Fitted Today",
@@ -46,7 +46,7 @@ export default function SameDayTyreFittingPage() {
         },
         {
           title: "Total Flexibility",
-          description: "Choose your time and location across London. We work around your schedule.",
+          description: "Choose your time and location. We work around your schedule.",
         },
         {
           title: "Reliable Service",

@@ -14,15 +14,15 @@ export default function RunFlatTyreFittingPage() {
     <ServicePageTemplate
       serviceName="Run Flat Tyre Fitting"
       serviceType="Run Flat Tyre Fitting"
-      description="Specialist mobile service for run-flat tyre fitting across London. Our technicians have the expertise and equipment to properly fit run-flat tyres and service TPMS systems."
-      heroDescription="Expert run-flat tyre fitting in London. Specialist service for TPMS-equipped vehicles at your location."
+      description="Specialist mobile service for run-flat tyre fitting. Our technicians have the expertise and equipment to properly fit run-flat tyres and service TPMS systems."
+      heroDescription="Expert run-flat tyre fitting. Specialist service for TPMS-equipped vehicles at your location."
       imageSrc="/images/services/run-flat-tyre-fitting.jpg"
       features={[
         "Specialist run-flat tyre expertise",
         "TPMS system service and reset",
         "Correct fitting procedures followed",
         "Full range of run-flat tyres available",
-        "Mobile service across London",
+        "Mobile service at your location",
         "All premium vehicle brands covered",
       ]}
       process={[
@@ -54,7 +54,7 @@ export default function RunFlatTyreFittingPage() {
         },
         {
           title: "Mobile Convenience",
-          description: "Specialist service delivered to your London location. No need to visit dealers.",
+          description: "Specialist service delivered to your location. No need to visit dealers.",
         },
       ]}
     />

@@ -14,11 +14,11 @@ export default function RoadsideTyreAssistancePage() {
     <ServicePageTemplate
       serviceName="Roadside Tyre Assistance"
       serviceType="Roadside Tyre Assistance"
-      description="Comprehensive roadside tyre assistance throughout London. Whether you have a puncture, blowout, or tyre damage, we provide complete on-site support to get you safely moving again."
-      heroDescription="Complete roadside tyre assistance across London. Fast response for punctures, damage, and emergencies."
+      description="Comprehensive roadside tyre assistance. Whether you have a puncture, blowout, or tyre damage, we provide complete on-site support to get you safely moving again."
+      heroDescription="Complete roadside tyre assistance. Fast response for punctures, damage, and emergencies."
       imageSrc="/images/services/roadside-tyre-assistance.jpg"
       features={[
-        "Fast roadside response across London",
+        "Fast roadside response",
         "Puncture assessment and repair",
         "Full tyre replacement if needed",
         "Pressure checks and adjustments",
@@ -49,8 +49,8 @@ export default function RoadsideTyreAssistancePage() {
           description: "From simple punctures to full replacements - all handled on-site.",
         },
         {
-          title: "London Coverage",
-          description: "Wherever you're stranded in London, we can reach you quickly.",
+          title: "Wide Coverage",
+          description: "Wherever you're stranded, we can reach you quickly.",
         },
         {
           title: "Safety First",

@@ -22,7 +22,7 @@ export default function AboutPage() {
               About Select Mobile Tyres
             </h1>
             <p className="text-lg leading-relaxed text-primary-foreground/90 md:text-xl">
-              London's trusted mobile tyre fitting service, delivering professional on-site assistance when you need it
+              A trusted mobile tyre fitting service, delivering professional on-site assistance when you need it
               most.
             </p>
           </div>
@@ -37,9 +37,9 @@ export default function AboutPage() {
               <h2 className="mb-6 text-3xl font-bold text-foreground text-balance md:text-4xl">Who We Are</h2>
               <div className="space-y-4 text-lg leading-relaxed text-muted-foreground">
                 <p>
-                  Select Mobile Tyres is London's premier mobile tyre fitting service, bringing professional automotive
-                  expertise directly to your location. Whether you're at home, at work, or stranded on the roadside, we
-                  provide fast, reliable tyre services across all London boroughs.
+                  Select Mobile Tyres is a premier mobile tyre fitting service, bringing professional automotive
+                  expertise directly to your location. Whether you're at home, at work, or stranded on the roadside,
+                  we provide fast, reliable tyre services wherever you are.
                 </p>
                 <p>
                   We understand that tyre issues can happen at the most inconvenient times. That's why we've built our
@@ -49,15 +49,15 @@ export default function AboutPage() {
                 </p>
                 <p>
                   With years of experience in the automotive industry and a commitment to customer satisfaction, we've
-                  become the go-to choice for drivers across London who value their time and need reliable tyre services
-                  delivered to their location.
+                  become the go-to choice for drivers who value their time and need reliable tyre services delivered
+                  to their location.
                 </p>
               </div>
             </div>
             <div className="relative aspect-square lg:aspect-auto lg:h-full lg:min-h-[400px]">
               <Image
                 src="/mobile-tyre-service-van-and-professional-technicia.jpg"
-                alt="Select Mobile Tyres service in London"
+                alt="Select Mobile Tyres service"
                 fill
                 className="rounded-lg object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -71,9 +71,9 @@ export default function AboutPage() {
       <section className="bg-muted/30 py-16 md:py-24">
         <div className="container mx-auto max-w-7xl px-4">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold text-foreground text-balance md:text-4xl">What We Do in London</h2>
+            <h2 className="mb-4 text-3xl font-bold text-foreground text-balance md:text-4xl">What We Do</h2>
             <p className="mx-auto max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              Comprehensive mobile tyre services delivered with professionalism and efficiency across all London areas.
+              Comprehensive mobile tyre services delivered with professionalism and efficiency, wherever you are.
             </p>
           </div>
 
@@ -81,16 +81,15 @@ export default function AboutPage() {
             <div className="rounded-lg bg-card p-6">
               <h3 className="mb-3 text-xl font-semibold text-foreground">Mobile Tyre Fitting</h3>
               <p className="leading-relaxed text-muted-foreground">
-                Complete tyre fitting service at your chosen location across London. Our technicians arrive fully
-                equipped with professional tools, balancing equipment, and a wide range of quality tyres to fit your
-                vehicle.
+                Complete tyre fitting service at your chosen location. Our technicians arrive fully equipped with
+                professional tools, balancing equipment, and a wide range of quality tyres to fit your vehicle.
               </p>
             </div>
             <div className="rounded-lg bg-card p-6">
               <h3 className="mb-3 text-xl font-semibold text-foreground">Emergency Response</h3>
               <p className="leading-relaxed text-muted-foreground">
-                24/7 emergency tyre assistance throughout London. When you're stranded with a flat tyre or urgent tyre
-                damage, we provide rapid response to get you safely back on the road.
+                24/7 emergency tyre assistance. When you're stranded with a flat tyre or urgent tyre damage, we
+                provide rapid response to get you safely back on the road.
               </p>
             </div>
             <div className="rounded-lg bg-card p-6">
@@ -103,8 +102,8 @@ export default function AboutPage() {
             <div className="rounded-lg bg-card p-6">
               <h3 className="mb-3 text-xl font-semibold text-foreground">Roadside Assistance</h3>
               <p className="leading-relaxed text-muted-foreground">
-                Complete roadside support including puncture repairs, tyre pressure checks, and full tyre replacement.
-                We serve all London postcodes with fast arrival times.
+                Complete roadside support including puncture repairs, tyre pressure checks, and full tyre
+                replacement. Fast arrival times, wherever you are.
               </p>
             </div>
           </div>
@@ -132,14 +131,13 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* London Coverage */}
+      {/* Coverage */}
       <section className="bg-muted/30 py-16 md:py-24">
         <div className="container mx-auto max-w-4xl px-4 text-center">
-          <h2 className="mb-6 text-3xl font-bold text-foreground text-balance md:text-4xl">Serving All of London</h2>
+          <h2 className="mb-6 text-3xl font-bold text-foreground text-balance md:text-4xl">Wide Coverage</h2>
           <p className="mb-8 text-lg leading-relaxed text-muted-foreground">
-            We provide mobile tyre fitting services across all London boroughs. From Central London to the outer areas,
-            our technicians cover the entire city with fast response times and professional service. No matter where you
-            are in London, we'll come to you.
+            Our technicians cover a wide area with fast response times and professional service. No matter where you
+            are, we'll come to you.
           </p>
           <p className="text-lg font-medium text-foreground">
             Available 24/7 for emergencies • Same-day service available • All postcodes covered
@@ -150,7 +148,7 @@ export default function AboutPage() {
       {/* CTA */}
       <CTASection
         title="Experience the Mobile Tyre Difference"
-        description="Professional, reliable, and convenient tyre services across London. Call us today to see why we're the trusted choice for mobile tyre fitting."
+        description="Professional, reliable, and convenient tyre services. Call us today to see why we're the trusted choice for mobile tyre fitting."
       />
     </main>
   )
@@ -169,7 +167,7 @@ const values = [
   },
   {
     title: "Fast Response",
-    description: "Average 45-minute arrival times across London, 24/7 availability.",
+    description: "Average 45-minute arrival times, 24/7 availability.",
     icon: <Clock className="h-8 w-8 text-accent" />,
   },
   {

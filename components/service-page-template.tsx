@@ -40,7 +40,7 @@ export function ServicePageTemplate({
           <div className="absolute inset-0 z-0">
             <Image
               src={imageSrc || "/placeholder.svg"}
-              alt={`${serviceName} service in London`}
+              alt={`${serviceName} service`}
               fill
               className="object-cover opacity-10"
               priority
@@ -48,9 +48,7 @@ export function ServicePageTemplate({
           </div>
           <div className="container relative z-10 mx-auto max-w-7xl px-4 py-16 md:py-24">
             <div className="max-w-3xl">
-              <h1 className="mb-4 text-4xl font-bold leading-tight text-balance md:text-5xl">
-                {serviceName} in London
-              </h1>
+              <h1 className="mb-4 text-4xl font-bold leading-tight text-balance md:text-5xl">{serviceName}</h1>
               <p className="text-lg leading-relaxed text-primary-foreground/90 md:text-xl">{heroDescription}</p>
             </div>
           </div>
@@ -76,9 +74,9 @@ export function ServicePageTemplate({
                 <Image
                   src={
                     imageSrc ||
-                    `/placeholder.svg?height=600&width=600&query=${serviceName.toLowerCase()} mobile service vehicle London`
+                    `/placeholder.svg?height=600&width=600&query=${serviceName.toLowerCase()} mobile service vehicle`
                   }
-                  alt={`${serviceName} - Professional mobile tyre service in London`}
+                  alt={`${serviceName} - Professional mobile tyre service`}
                   fill
                   className="rounded-xl object-cover shadow-lg"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
@@ -129,22 +127,22 @@ export function ServicePageTemplate({
           </div>
         </section>
 
-        {/* London Coverage */}
+        {/* Coverage */}
         <section className="bg-muted/30 py-16">
           <div className="container mx-auto max-w-4xl px-4 text-center">
             <h2 className="mb-4 text-2xl font-bold text-foreground text-balance md:text-3xl">
-              Available Across All London Boroughs
+              Available Wherever You Are
             </h2>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              We provide {serviceName.toLowerCase()} services throughout London, covering all postcodes from Central
-              London to the outer boroughs. Fast response times and consistent quality wherever you are.
+              We provide {serviceName.toLowerCase()} services at your location, covering all nearby postcodes. Fast
+              response times and consistent quality wherever you are.
             </p>
           </div>
         </section>
 
         {/* CTA */}
         <CTASection
-          title={`Need ${serviceName} in London?`}
+          title={`Need ${serviceName}?`}
           description="Call now for professional service at your location. Fast response and expert fitting guaranteed."
         />
       </main>
